@@ -1,3 +1,5 @@
 name: PixelMasterExample
 main: it.ohalee.pixel.example.master.Main
 version: 1.0
+depend:
+  - BasementLib

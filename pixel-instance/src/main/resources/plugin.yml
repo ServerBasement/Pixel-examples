@@ -1,3 +1,5 @@
 name: PixelInstanceExample
 main: it.ohalee.pixel.example.instance.Main
 version: 1.0
+depend:
+  - BasementLib

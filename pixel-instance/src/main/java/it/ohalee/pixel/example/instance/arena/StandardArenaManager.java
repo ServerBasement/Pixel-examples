@@ -1,9 +1,7 @@
 package it.ohalee.pixel.example.instance.arena;
 
-import it.ohalee.pixel.api.Match;
 import it.ohalee.pixel.example.instance.Main;
 import it.ohalee.pixel.example.match.SharedBedwarsMatch;
-import it.ohalee.pixel.match.SharedMatch;
 import it.ohalee.pixel.util.Basement;
 import org.bukkit.World;
 import org.redisson.api.RMapCache;
