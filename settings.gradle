@@ -1,0 +1,5 @@
+rootProject.name = 'Pixel-Examples'
+include 'pixel-master'
+include 'pixel-instance'
+include 'pixel-common'
+

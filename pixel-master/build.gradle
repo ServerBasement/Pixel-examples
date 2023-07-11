@@ -1,0 +1,7 @@
+
+dependencies {
+    implementation project(":pixel-common")
+
+    implementation 'it.ohalee.pixel:master:1.0'
+
+}
