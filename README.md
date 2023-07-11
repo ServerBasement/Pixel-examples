@@ -1,4 +1,4 @@
-# Minecraft Matchmaking Library
+# Pixel - A Minecraft Matchmaking Library
 
  Pixel is a Minecraft Matchmaking Library designed to facilitate matchmaking functionality 
  within Minecraft minigames. 
@@ -290,6 +290,7 @@ public enum BedwarsType implements PixelType {
 
 _All the code required is in the repository. This is just some of the code.<br>_
 _For a detailed example, see the code in the repository._
+_BasementLib plugin is required._
 
 ## Contributing
 Contributions to Pixel are welcome! 
