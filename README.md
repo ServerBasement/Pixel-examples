@@ -34,27 +34,16 @@ The library is compatible with Bukkit, Spigot, Paper, and forks of these platfor
 
 Master Plugin (plugin that goes in the lobby server)
 ```java
-repositories {
-    flatDir {
-        dirs("libs")
-    }
-}
-
 dependencies {
-    implementation ('Pixel-Master-<version>.jar')
+    compileOnly fileTree(dir: 'lib', include: 'Pixel-Master-<version>.jar')
 }
 ```
 
 Instance Plugin (plugin that goes in the game servers)
 ```java
-repositories {
-    flatDir {
-        dirs("libs")
-    }
-}
 
 dependencies {
-    implementation ('Pixel-Instance-<version>.jar')
+    compileOnly fileTree(dir: 'lib', include: 'Pixel-Instance-<version>.jar')
 }
 ```
 
